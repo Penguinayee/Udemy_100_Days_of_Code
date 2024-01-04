@@ -9,7 +9,8 @@ class Player(Turtle):
         super().__init__()
         self.shape('turtle')
         self.penup()
-        self.goto(STARTING_POSITION)
+        #self.goto(STARTING_POSITION)
+        self.reset_game()
         self.setheading(90)
         self.finish_line = FINISH_LINE_Y
 

@@ -22,5 +22,5 @@ class CarManager():
         self.car_list.append(new_car)
         
     def car_move(self):
-        for i in range(len(self.car_list)):
-            self.car_list[i].forward(self.car_speed)
+        for car in self.car_list:
+            car.forward(self.car_speed)

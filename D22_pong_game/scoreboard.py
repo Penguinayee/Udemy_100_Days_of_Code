@@ -26,9 +26,6 @@ class ScoreBoard(Turtle):
         self.R_score += 1
         self.update_scoreboard()
 
-    def speed_up(self):
-        self.ball_speed *= 0.1
-
     def game_over(self):
         self.goto(0, 0)
         if self.L_score == 5:
